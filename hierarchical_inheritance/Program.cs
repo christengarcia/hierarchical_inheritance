@@ -15,5 +15,15 @@ namespace hierarchical_inheritance
             s.Monitor();
             Console.ReadKey();
         }
+
+        class Principal
+        {
+            public void Monitor()
+            {
+                Console.WriteLine("Monitor");
+            }
+        }
+
+
     }
 }
