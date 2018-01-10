@@ -32,6 +32,12 @@ namespace hierarchical_inheritance
             }
         }
 
-
+        class Student : Principal
+        {
+            public void Learn()
+            {
+                Console.WriteLine("Learn");
+            }
+        }
     }
 }
