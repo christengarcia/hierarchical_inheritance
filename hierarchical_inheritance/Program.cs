@@ -24,6 +24,14 @@ namespace hierarchical_inheritance
             }
         }
 
+        class Teacher : Principal
+        {
+            public void Teach()
+            {
+                Console.WriteLine("Teach");
+            }
+        }
+
 
     }
 }
