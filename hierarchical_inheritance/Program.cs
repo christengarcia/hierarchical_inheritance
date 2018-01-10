@@ -11,7 +11,7 @@ namespace hierarchical_inheritance
             Teacher d = new Teacher();
             d.Monitor();
             d.Teach();
-            Student s = Student();
+            Student s = new Student();
             s.Monitor();
             Console.ReadKey();
         }
